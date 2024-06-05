@@ -15,18 +15,6 @@ To develop a digital healthcare assistant that empowers individuals with instant
 - **Frontend**: React Native and Restyle, providing a cross-platform mobile experience with a seamless and intuitive user interface.
 - **AI Model**: Advanced LLMs, fine-tuned with specialized medical datasets and augmented with RAG capabilities for enhanced accuracy and relevance in responses.
 
-## Setup
-
-### Backend
-1. Navigate to the `backend` directory.
-2. Install dependencies: `pip install -r requirements.txt`.
-3. Run the application: `uvicorn main:app --reload`.
-
-### Frontend
-1. Navigate to the `app` directory.
-2. Install dependencies: `npm install`.
-3. Run the application: `npx expo start`.
-
 ## License
 MIT License
 
