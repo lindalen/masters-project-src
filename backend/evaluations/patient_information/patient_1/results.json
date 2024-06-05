@@ -1,0 +1,144 @@
+[
+    {
+        "model_name": "gpt-4o",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Hormonal Imbalances",
+            "Sleep Disorders",
+            "Depression or Anxiety"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Thyroid Issues",
+            "Depression or Anxiety"
+        ]
+    },
+    {
+        "model_name": "gpt-4-turbo",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Hormonal Imbalances",
+            "Sleep Disorders",
+            "Stress and Anxiety"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Thyroid issues",
+            "Sleep disorders"
+        ]
+    },
+    {
+        "model_name": "gpt-4",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Hormonal changes",
+            "Sleep disorders",
+            "Chronic Fatigue Syndrome"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Thyroid issues",
+            "Sleep disorders"
+        ]
+    },
+    {
+        "model_name": "gpt-3.5-turbo",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "hormonal imbalances",
+            "thyroid issues",
+            "menopause",
+            "infections like tuberculosis",
+            "sleep apnea"
+        ],
+        "informed_diagnoses": [
+            "Hormonal imbalance",
+            "Thyroid issues",
+            "Sleep disorders"
+        ]
+    },
+    {
+        "model_name": "mistral-large-latest",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Anxiety or Depression",
+            "Hormonal Imbalance",
+            "Chronic Fatigue Syndrome"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Depression",
+            "Thyroid Disorder"
+        ]
+    },
+    {
+        "model_name": "mistral-medium-latest",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Depression",
+            "Hormonal imbalance",
+            "Sleep disorders"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Sleep disorders",
+            "Depression"
+        ]
+    },
+    {
+        "model_name": "mistral-small-latest",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Hypothyroidism",
+            "Depression",
+            "Menopause"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Hypothyroidism",
+            "Sleep disorders"
+        ]
+    },
+    {
+        "model_name": "open-mixtral-8x22b",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Anxiety or depression",
+            "Hormonal imbalance",
+            "Chronic fatigue syndrome"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Sleep disorders",
+            "Thyroid disorder"
+        ]
+    },
+    {
+        "model_name": "open-mixtral-8x7b",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Anxiety or stress",
+            "Hormonal imbalance",
+            "Sleep disorders"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Anxiety or Depression",
+            "Hypothyroidism"
+        ]
+    },
+    {
+        "model_name": "open-mistral-7b",
+        "target_diagnosis": "Menopause",
+        "uninformed_diagnoses": [
+            "Anxiety or depression",
+            "Hormonal imbalances",
+            "Sleep apnea"
+        ],
+        "informed_diagnoses": [
+            "Menopause",
+            "Anxiety or Depression",
+            "Hypothyroidism"
+        ]
+    }
+]

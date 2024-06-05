@@ -1,0 +1,18 @@
+{
+    "actual_patient": {
+        "age": 45,
+        "gender": "female",
+        "height_cm": 165,
+        "weight_kg": 70,
+        "name": "Emily"
+    },
+    "extracted_patient": {
+        "name": "Emily",
+        "age": 45,
+        "weight": 70.0,
+        "height": 165.0,
+        "gender": "Female"
+    },
+    "explanation": "The name is correct. The age is correct. The gender is correct. The height is correct. The weight is correct.",
+    "total_score": "5/5"
+}

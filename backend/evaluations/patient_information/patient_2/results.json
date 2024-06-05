@@ -1,0 +1,143 @@
+[
+    {
+        "model_name": "gpt-4o",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Hormonal Imbalance",
+            "Depression or Anxiety",
+            "Sleep Disorders"
+        ],
+        "informed_diagnoses": [
+            "Hormonal Changes",
+            "Sleep Disorders",
+            "Nutritional Deficiencies"
+        ]
+    },
+    {
+        "model_name": "gpt-4-turbo",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Hormonal Imbalances",
+            "Sleep Disorders",
+            "Stress and Mental Health Issues"
+        ],
+        "informed_diagnoses": [
+            "Puberty",
+            "Sleep Disorders",
+            "Stress or Emotional Distress"
+        ]
+    },
+    {
+        "model_name": "gpt-4",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Hormonal imbalance",
+            "Stress or anxiety",
+            "Sleep disorders"
+        ],
+        "informed_diagnoses": [
+            "Puberty",
+            "Sleep disorders",
+            "Stress or anxiety"
+        ]
+    },
+    {
+        "model_name": "gpt-3.5-turbo",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "hormonal imbalances (such as thyroid issues or polycystic ovary syndrome)",
+            "stress or emotional distress",
+            "sleep disorder like insomnia"
+        ],
+        "informed_diagnoses": [
+            "Hormonal changes",
+            "Sleep disturbances",
+            "Possible metabolic issues"
+        ]
+    },
+    {
+        "model_name": "mistral-large-latest",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Depression",
+            "Hormonal imbalance",
+            "Stress"
+        ],
+        "informed_diagnoses": [
+            "Depression",
+            "Hormonal Imbalance",
+            "Sleep Disorder"
+        ]
+    },
+    {
+        "model_name": "mistral-medium-latest",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "depression",
+            "polycystic ovary syndrome (PCOS)",
+            "thyroid disorders",
+            "hypothyroidism"
+        ],
+        "informed_diagnoses": [
+            "Hormonal changes",
+            "Depression or anxiety",
+            "Sleep disorders"
+        ]
+    },
+    {
+        "model_name": "mistral-small-latest",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Polycystic Ovary Syndrome (PCOS)",
+            "Depression",
+            "Hypothyroidism"
+        ],
+        "informed_diagnoses": [
+            "Puberty",
+            "Insulin Resistance",
+            "Depression"
+        ]
+    },
+    {
+        "model_name": "open-mixtral-8x22b",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Polycystic Ovary Syndrome (PCOS)",
+            "Depression",
+            "Hypothyroidism"
+        ],
+        "informed_diagnoses": [
+            "Puberty",
+            "Sleep disturbances",
+            "Depression"
+        ]
+    },
+    {
+        "model_name": "open-mixtral-8x7b",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Polycystic Ovary Syndrome (PCOS)",
+            "Depression",
+            "Thyroid Issues"
+        ],
+        "informed_diagnoses": [
+            "Puberty",
+            "Depression",
+            "Hormonal Imbalance"
+        ]
+    },
+    {
+        "model_name": "open-mistral-7b",
+        "target_diagnosis": "Puberty",
+        "uninformed_diagnoses": [
+            "Hormonal imbalance",
+            "Depression or anxiety",
+            "Sleep apnea"
+        ],
+        "informed_diagnoses": [
+            "Hormonal changes",
+            "Poor sleep hygiene",
+            "Nutritional imbalances"
+        ]
+    }
+]

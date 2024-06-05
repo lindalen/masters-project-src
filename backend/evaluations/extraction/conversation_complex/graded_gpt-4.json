@@ -1,0 +1,279 @@
+{
+    "actual_observations": [
+        {
+            "type": "symptom",
+            "observation": "For the past few weeks, Emily has been feeling unusually thirsty all the time, no matter how much she drinks."
+        },
+        {
+            "type": "symptom",
+            "observation": "Emily reports needing to urinate more frequently, especially during the night."
+        },
+        {
+            "type": "symptom",
+            "observation": "Emily feels constantly tired, even though she\u00e2\u20ac\u2122s getting enough sleep."
+        },
+        {
+            "type": "symptom",
+            "observation": "Emily's vision has been blurry on and off."
+        },
+        {
+            "type": "condition",
+            "observation": "Emily is experiencing menopause, with symptoms including hot flashes and mood swings."
+        },
+        {
+            "type": "condition",
+            "observation": "Emily has been diagnosed with hypertension and is managing it with medication."
+        },
+        {
+            "type": "condition",
+            "observation": "Based on her symptoms of increased thirst, frequent urination, fatigue, and blurred vision, Emily is suspected to have Type 2 Diabetes and requires a blood test for confirmation."
+        },
+        {
+            "type": "medication",
+            "observation": "Emily takes Lisinopril, 10 mg, once daily to manage her hypertension."
+        },
+        {
+            "type": "medication",
+            "observation": "Emily applies an Estradiol Patch, 0.05 mg/day, twice a week for hormonal replacement during menopause."
+        },
+        {
+            "type": "lifestyle",
+            "observation": "Emily works a desk job and spends most of her day sitting, contributing to her sedentary lifestyle."
+        },
+        {
+            "type": "lifestyle",
+            "observation": "Emily frequently eats fast food and snacks on sugary treats."
+        },
+        {
+            "type": "lifestyle",
+            "observation": "Emily experiences sleep disturbances and has irregular sleep patterns due to menopausal symptoms."
+        },
+        {
+            "type": "lifestyle",
+            "observation": "Emily makes a consistent effort to walk briskly for 30 minutes five days a week."
+        }
+    ],
+    "actual_patient": {
+        "age": 45,
+        "gender": "female",
+        "height_cm": 165,
+        "weight_kg": 70,
+        "name": "Emily"
+    },
+    "extracted_observations": [
+        {
+            "text": "Patient has been feeling unusually thirsty for the past few weeks, even if it\u00e2\u20ac\u2122s not constant. The thirst is there no matter how much she drinks. (2024-05-25)",
+            "type": "Increased Thirst"
+        },
+        {
+            "text": "Patient has been needing to urinate more frequently, especially during the night. (2024-05-25)",
+            "type": "Frequent Urination"
+        },
+        {
+            "text": "Patient has been feeling constantly tired, even though she\u00e2\u20ac\u2122s getting enough sleep. (2024-05-25)",
+            "type": "Fatigue"
+        },
+        {
+            "text": "Patient experiences blurred vision, especially when tired. (2024-05-25)",
+            "type": "Blurred Vision"
+        },
+        {
+            "text": "Patient is managing menopause with hormone patches, experiencing hot flashes and mood swings. (2024-05-25)",
+            "type": "Menopause"
+        },
+        {
+            "text": "Patient was diagnosed with high blood pressure a few years ago. (2024-05-25)",
+            "type": "Hypertension"
+        },
+        {
+            "text": "Doctor suspects patient might be developing Type 2 Diabetes based on her symptoms. (2024-05-25)",
+            "type": "Suspected Type 2 Diabetes"
+        },
+        {
+            "text": "Patient is controlling hypertension with Lisinopril, 10 mg, once daily. (2024-05-25)",
+            "type": "Lisinopril"
+        },
+        {
+            "text": "Patient applies the Estradiol Patch, 0.05 mg/day, twice a week for hormonal replacement therapy. (2024-05-25)",
+            "type": "Estradiol Patch"
+        },
+        {
+            "text": "Patient works at a desk job and spends most of her day sitting. She walks briskly for 30 minutes five days a week. (2024-05-25)",
+            "type": "Sedentary Job with Regular Exercise"
+        },
+        {
+            "text": "Patient has a diet that includes a lot of fast food and sugary snacks. (2024-05-25)",
+            "type": "Unhealthy Diet"
+        },
+        {
+            "text": "Patient experiences disturbances and irregular sleep patterns due to menopausal symptoms. (2024-05-25)",
+            "type": "Irregular Sleep"
+        }
+    ],
+    "extracted_patient": {
+        "name": "Emily",
+        "age": 45,
+        "weight": 70.0,
+        "height": 165.0,
+        "gender": "Female"
+    },
+    "scoring_details": [
+        {
+            "ground_truth": {
+                "type": "symptom",
+                "observation": "For the past few weeks, Emily has been feeling unusually thirsty all the time, no matter how much she drinks."
+            },
+            "student_answer": {
+                "text": "Patient has been feeling unusually thirsty for the past few weeks, even if it\u00e2\u20ac\u2122s not constant. The thirst is there no matter how much she drinks. (2024-05-25)",
+                "type": "Increased Thirst"
+            },
+            "details": "The student's answer captures the key facts of the observation: the patient has been feeling unusually thirsty for the past few weeks, and the thirst persists regardless of fluid intake.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "symptom",
+                "observation": "Emily reports needing to urinate more frequently, especially during the night."
+            },
+            "student_answer": {
+                "text": "Patient has been needing to urinate more frequently, especially during the night. (2024-05-25)",
+                "type": "Frequent Urination"
+            },
+            "details": "The student's answer fully includes the key facts: increased frequency of urination, particularly at night.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "symptom",
+                "observation": "Emily feels constantly tired, even though she\u00e2\u20ac\u2122s getting enough sleep."
+            },
+            "student_answer": {
+                "text": "Patient has been feeling constantly tired, even though she\u00e2\u20ac\u2122s getting enough sleep. (2024-05-25)",
+                "type": "Fatigue"
+            },
+            "details": "The student's answer fully captures the key facts: constant tiredness despite adequate sleep.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "symptom",
+                "observation": "Emily's vision has been blurry on and off."
+            },
+            "student_answer": {
+                "text": "Patient experiences blurred vision, especially when tired. (2024-05-25)",
+                "type": "Blurred Vision"
+            },
+            "details": "The student's answer includes the key fact of blurred vision but adds a condition (when tired) that is not mentioned in the ground truth. However, the main observation is still captured.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "condition",
+                "observation": "Emily is experiencing menopause, with symptoms including hot flashes and mood swings."
+            },
+            "student_answer": {
+                "text": "Patient is managing menopause with hormone patches, experiencing hot flashes and mood swings. (2024-05-25)",
+                "type": "Menopause"
+            },
+            "details": "The student's answer includes the key facts: experiencing menopause with hot flashes and mood swings. The mention of hormone patches is additional information but does not detract from the key facts.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "condition",
+                "observation": "Emily has been diagnosed with hypertension and is managing it with medication."
+            },
+            "student_answer": {
+                "text": "Patient was diagnosed with high blood pressure a few years ago. (2024-05-25)",
+                "type": "Hypertension"
+            },
+            "details": "The student's answer includes the key fact of a hypertension diagnosis but does not mention management with medication. This is a partial inclusion.",
+            "score": 0.5
+        },
+        {
+            "ground_truth": {
+                "type": "condition",
+                "observation": "Based on her symptoms of increased thirst, frequent urination, fatigue, and blurred vision, Emily is suspected to have Type 2 Diabetes and requires a blood test for confirmation."
+            },
+            "student_answer": {
+                "text": "Doctor suspects patient might be developing Type 2 Diabetes based on her symptoms. (2024-05-25)",
+                "type": "Suspected Type 2 Diabetes"
+            },
+            "details": "The student's answer includes the key fact of a suspicion of Type 2 Diabetes based on symptoms but does not mention the need for a blood test for confirmation. This is a partial inclusion.",
+            "score": 0.5
+        },
+        {
+            "ground_truth": {
+                "type": "medication",
+                "observation": "Emily takes Lisinopril, 10 mg, once daily to manage her hypertension."
+            },
+            "student_answer": {
+                "text": "Patient is controlling hypertension with Lisinopril, 10 mg, once daily. (2024-05-25)",
+                "type": "Lisinopril"
+            },
+            "details": "The student's answer fully includes the key facts: taking Lisinopril, 10 mg, once daily to manage hypertension.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "medication",
+                "observation": "Emily applies an Estradiol Patch, 0.05 mg/day, twice a week for hormonal replacement during menopause."
+            },
+            "student_answer": {
+                "text": "Patient applies the Estradiol Patch, 0.05 mg/day, twice a week for hormonal replacement therapy. (2024-05-25)",
+                "type": "Estradiol Patch"
+            },
+            "details": "The student's answer fully includes the key facts: applying an Estradiol Patch, 0.05 mg/day, twice a week for hormonal replacement.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "lifestyle",
+                "observation": "Emily works a desk job and spends most of her day sitting, contributing to her sedentary lifestyle."
+            },
+            "student_answer": {
+                "text": "Patient works at a desk job and spends most of her day sitting. She walks briskly for 30 minutes five days a week. (2024-05-25)",
+                "type": "Sedentary Job with Regular Exercise"
+            },
+            "details": "The student's answer includes the key fact of working a desk job and spending most of the day sitting. The additional information about regular exercise does not negate the sedentary lifestyle observation.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "lifestyle",
+                "observation": "Emily frequently eats fast food and snacks on sugary treats."
+            },
+            "student_answer": {
+                "text": "Patient has a diet that includes a lot of fast food and sugary snacks. (2024-05-25)",
+                "type": "Unhealthy Diet"
+            },
+            "details": "The student's answer fully includes the key facts: a diet that includes a lot of fast food and sugary snacks.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "lifestyle",
+                "observation": "Emily experiences sleep disturbances and has irregular sleep patterns due to menopausal symptoms."
+            },
+            "student_answer": {
+                "text": "Patient experiences disturbances and irregular sleep patterns due to menopausal symptoms. (2024-05-25)",
+                "type": "Irregular Sleep"
+            },
+            "details": "The student's answer fully includes the key facts: sleep disturbances and irregular sleep patterns due to menopausal symptoms.",
+            "score": 1
+        },
+        {
+            "ground_truth": {
+                "type": "lifestyle",
+                "observation": "Emily makes a consistent effort to walk briskly for 30 minutes five days a week."
+            },
+            "student_answer": {
+                "text": "Patient works at a desk job and spends most of her day sitting. She walks briskly for 30 minutes five days a week. (2024-05-25)",
+                "type": "Sedentary Job with Regular Exercise"
+            },
+            "details": "The student's answer includes the key fact of walking briskly for 30 minutes five days a week, even though it is combined with another observation.",
+            "score": 1
+        }
+    ],
+    "total_score": "Total Score: 12.0/13"
+}
